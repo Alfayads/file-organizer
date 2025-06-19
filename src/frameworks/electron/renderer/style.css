@@ -1,0 +1,7 @@
+/* Custom styles to override or extend Tailwind */
+#logList p {
+  margin: 0;
+}
+#logList div {
+  margin-bottom: 0.5rem;
+}

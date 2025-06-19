@@ -1,0 +1,27 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "main": "src/frameworks/electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "electron": "^36.4.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12",
+    "eslint": "^9.29.0",
+    "jest": "^30.0.0"
+  },
+  "build": {
+    "appId": "com.example.fileorganizer",
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  }
+}
