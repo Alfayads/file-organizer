@@ -11,7 +11,8 @@ describe('OrganizeFile Use Case', () => {
     new Rule('Images', ['.png']),
     new Rule('Others', [])
   ];
-  const organizeFile = new OrganizeFile(mockFileSystemRepository, rules);
+  const sourceFolder = '/path/to'; // Define the source folder
+  const organizeFile = new OrganizeFile(mockFileSystemRepository, rules, sourceFolder); // Pass sourceFolder
 
   test('should organize a PNG file to Images folder', async () => {
     const file = new File('/path/to/file.png', 'file.png', '.png');
