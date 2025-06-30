@@ -21,10 +21,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/file-organizer.git
+    git clone https://github.com/alfayads/file-organizer.git
     cd file-organizer
-    ```
-    **Note:** Replace `https://github.com/your-username/file-organizer.git` with the actual URL of this repository.
+   
 
 2.  **Install dependencies:**
     ```bash
